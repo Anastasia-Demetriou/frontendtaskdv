@@ -1,9 +1,9 @@
 <div class="newidea">
   <%= form_for @task do |f| %>
-  <%= f.label :title, "Enter your idea:"  %>
-  <%= f.text_field :title, placeholder: "Your New Idea", class: 'title-form'%>
+  <%= f.label :title, "Enter your task:"  %>
+  <%= f.text_field :title, placeholder: "Your new task", class: 'title-form'%>
   <%= f.label :details, "Enter details here:"%>
-  <%= f.text_field :details, placeholder: "Details of your idea", class: 'details-form' %>
+  <%= f.text_field :details, placeholder: "Details of your task", class: 'details-form' %>
   <%= f.submit class: 'submit-button' %>
   <% end %>
 </div>

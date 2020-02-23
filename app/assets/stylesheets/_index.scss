@@ -1,4 +1,4 @@
-.heading {
+ .heading {
   padding: 10px 10px;
   font-size: 30px;
   font-weight: 500;
@@ -49,6 +49,12 @@
   filter: none;
   display: inline-block;
   transition: opacity .35s ease;
+}
+
+.edit-index {
+  float: right;
+  padding-right: 3px;
+  margin-top: 85px;
 }
 
 
